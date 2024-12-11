@@ -2,24 +2,37 @@
 
 Thank you for the opportunity.
 
-- Port: 5185
-- Swagger: http://localhost:5185/swagger/index.html
-- Walkthrough: xxx
-
-sudo docker-compose build
+- **Port**: 5185
+- **Swagger**: [http://localhost:5185/swagger/index.html](http://localhost:5185/swagger/index.html)
+- **Walkthrough**: xxx
 
 ## Notes
 
-- I used dotnet --Version 7, as there seemed to be more available support.
-- SQLite DB, i built he model for the data structures first layer, then the nested objects and lists i just serialised them for simplicity here
+- I used .NET 7, as it offers more available support and features.
+- SQLite Database: I built the model for the data structures' first layer. Nested objects and lists were serialized for simplicity in this implementation.
 
-## How to run
+## How to Run
 
-I included a docker-compose to build and run the server, Run within root
+I included a `docker-compose` file to build and run the server. Run the following commands from the root directory:
 
-- docker-compose build
-- docker-compose up
--
+```bash
+docker-compose build
+docker-compose up
+```
+
+After running, the server will be available at:
+
+- http://localhost:5185
+
+## Below is a Snapshot of the Test Cases
+
+This image demonstrates test case outputs for the implemented API:
+
+![Project Example](Resources/tests.png "testcases")
+
+---
+
+---
 
 ## Brief
 

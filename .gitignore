@@ -1,8 +1,8 @@
 # Ignore build outputs
 HomeIEApi/bin/
 HomeIEApi/obj/
-HomeIEApi.Test/bin/
-HomeIEApi.Test/obj/
+HomeIEApi.Tests/bin/
+HomeIEApi.Tests/obj/
 
 # User-specific files
 .vscode/
