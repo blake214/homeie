@@ -1,0 +1,30 @@
+# Ignore build outputs
+HomeIEApi/bin/
+HomeIEApi/obj/
+HomeIEApi.test/bin/
+HomeIEApi.test/obj/
+
+# User-specific files
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+**/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Other IDE-specific files
+*.vs/
