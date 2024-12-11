@@ -4,7 +4,6 @@ Thank you for the opportunity.
 
 - **Port**: 5185
 - **Swagger**: [http://localhost:5185/swagger/index.html](http://localhost:5185/swagger/index.html)
-- **Walkthrough**: xxx
 
 ## Notes
 
@@ -29,6 +28,10 @@ After running, the server will be available at:
 This image demonstrates test case outputs for the implemented API:
 
 ![Project Example](Resources/tests.png "testcases")
+
+## Below is a Snapshot of the Swagger UI
+
+![Project Example](Resources/swagger.png "swagger")
 
 ---
 
